@@ -1,13 +1,13 @@
 /* for debugging - turn on all borders */
 div, ul, h1, span
 {
-/* 	border: red 1px solid;	 */
+ 	/*border: red 1px solid;	 */
 }
 
 @font-face 
 {
     font-family: code;
-    src: url(/fonts/code_bold.otf);
+    src: url(/fonts/code_BOLD.otf);
 }
 
 div, footer
