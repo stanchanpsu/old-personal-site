@@ -180,6 +180,8 @@ a:link, a:hover, a:visited, a:active
 .section
 {
 	padding: 60px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
 .section h1
