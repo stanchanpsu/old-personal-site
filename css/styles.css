@@ -1,0 +1,250 @@
+/* for debugging - turn on all borders */
+div, ul, h1
+{
+/* 	border: red 1px solid;	 */
+}
+
+/* turn off all underlines on links*/
+a
+{
+	text-decoration: none;	
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+/* navbar */
+.navbar-fixed-top
+{
+	background: rgba(255,255,255, 0.7);
+	align-items: center;
+}
+.center-pills
+{
+	min-height: 60px;
+	height: -5vw;
+	text-align: center;
+}
+
+.nav-pills
+{
+	position: relative;
+	top: 1.5px;
+	font-size: 24px; 
+	display: inline-block;
+}
+.nav-pills li a
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.nav-pills li a:hover
+{
+	background-color: rgba(92,198,255,0.2);	
+}
+
+/* jumbotron */
+.jumbotron
+{
+	margin: 0px;
+	background-image: url('/img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	min-height: 600px;
+	height: 100vh;
+	text-align: center;
+}
+
+.jumbotron img
+{
+	width: 200px;
+	height: 200px;
+/* 	width: 15vw;
+	height: 15vw; */
+	border-radius: 50%;
+	border: 5px white solid;
+}	
+
+.vertical-center 
+{	
+	position: relative;
+	top: -48px;
+	min-height: 600px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0,0,0,0.1);
+}
+
+#jumbotron-content
+{
+	position: relative;
+	top: 50px;
+	min-height: 100px;
+	height: 40 vh;
+}
+
+.jumbotron #jumbotron-text, #profile-pic
+{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.jumbotron h1
+{
+	color: white;
+	font-weight: 500;
+	font-size: 70px;
+/* 	font-size: 5vw; */
+	text-align: left;
+	padding: 0;
+	
+}
+.jumbotron p
+{
+	color: rgba(256,256,256,1);
+	text-align: left;
+	font-size: 35px;
+/* 	font-size: 2.3vw; */
+	text-outline: 2px solid black;
+	max-width: 650px;
+}
+
+/* Get to Know me button */
+#know-me-container
+{
+	margin-top: 10vw;
+	display: block;
+}
+
+#know-me
+{	
+	display: table;
+	min-width: 100px;
+	width: 200px;
+	width: 13vw;
+	min-height: 40px;
+	height: 75px;
+	height: 5vw;
+	border-radius: 11px;
+	border: solid white 5px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#know-me:hover
+{
+	background-color: rgba(92,198,255,0.5);	
+}
+
+#know-me p
+{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 22px;
+	font-size: 1.4vw;
+}
+
+#know-me a
+{
+	border: 1px red solid;
+	padding-left: 5px;
+	padding-right:5px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+}
+
+/* each section */
+.section
+{
+	display: block;
+	min-height: 600px;
+	height: 100vh;
+	text-align: center;
+}
+
+.section h1
+{
+	font-size: 3vw;
+}
+
+.section p
+{
+	padding-top: 3vh;
+	padding-left: 10vw;
+	padding-right: 5vw;
+	text-align: left;
+	font-size: 1.4vw;
+}
+
+.section img
+{
+	border-radius: 5px;
+	border: 2px white solid;	
+}
+
+/* 60px at the top of each section for overlap with navbar */
+.buffer
+{
+	padding-top: 60px;	
+}
+
+/* about */
+#about
+{
+	height: inherit;
+	background-color: rgba(51,122,183, 0.4);
+/* 	display: flex; */
+}
+
+#about p, h1
+{
+	padding-left: 10vw;
+	text-align: left;
+	color: white;
+}
+
+#about img
+{
+	position: relative;
+	left: -20px;
+	top: 30px;
+	width: 30vw;
+}
+
+.caption
+{
+	position: relative;
+	left: -20px;
+}
+
+.caption h2
+{
+	font-size: 1.5vw;
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	padding: 0;
+	max-width: 1000px;
+}
+
+/* projects */
+#projects
+{
+	height: inherit;
+	background-color: rgba(235,160,0,0.4);
+
+}
+
+#projects > h1, p
+{
+	color: orange;
+}
+
