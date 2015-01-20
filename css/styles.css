@@ -76,7 +76,7 @@ a:link, a:hover, a:visited, a:active
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 50%;
-	min-width: 500px;
+	/*min-width: 500px;*/
 	min-height: 600px;
 	height: 100vh;
 	text-align: center;
