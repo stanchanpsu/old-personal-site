@@ -204,7 +204,6 @@ a:link, a:hover, a:visited, a:active
 
 .section p
 {	
-	padding-top: 10px;
 	text-align: left;
 	font-size: 22px;
 }
@@ -232,7 +231,6 @@ a:link, a:hover, a:visited, a:active
 
 #about p, h1
 {
-/* 	padding-left: 10vw; */
 	text-align: left;
 	color: white;
 }
