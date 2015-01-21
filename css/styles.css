@@ -163,7 +163,6 @@ a:link, a:hover, a:visited, a:active
 	vertical-align: middle;
 	font-size: 22px;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
 }
 
 #get-to a
@@ -188,6 +187,7 @@ a:link, a:hover, a:visited, a:active
 {
 	font-size: 60px;
 	text-align: center;
+	font-family: code;
 }
 
 .section p
