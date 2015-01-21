@@ -273,9 +273,9 @@ a:link, a:hover, a:visited, a:active
 	background-color: #dfa06c;
 }
 
-/* #projects > h1, p */
+.project-title
 {
-	color: orange;
+	padding-bottom:30px;
 }
 
 footer
