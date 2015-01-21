@@ -4,6 +4,8 @@ div, ul, h1, span
  	/*border: red 1px solid;	 */
 }
 
+font-family: 'Ubuntu', sans-serif;
+
 @font-face 
 {
     font-family: code;
@@ -14,8 +16,6 @@ navbar-fixed-top, jumbotron,  footer
 {
 	font-family: code;
 }
-
-font-family: 'Ubuntu', sans-serif;
 
 @media screen and (min-width: 0px) and (max-width: 800px)
 {
