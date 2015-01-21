@@ -12,7 +12,7 @@ font-family: 'Ubuntu', sans-serif;
     src: url(/fonts/code_font.otf);
 }
 
-navbar-fixed-top, jumbotron,  footer
+.navbar-fixed-top, .jumbotron,  footer
 {
 	font-family: code;
 }
