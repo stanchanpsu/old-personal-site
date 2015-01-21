@@ -192,12 +192,9 @@ a:link, a:hover, a:visited, a:active
 
 .section p
 {	
-/* 	text-indent: 50px; */
 	padding-top: 10px;
-/* 	padding-left: 10vw; */
-/* 	padding-right: 5vw; */
 	text-align: left;
-	font-size: 19px;
+	font-size: 21px;
 }
 
 .section img
