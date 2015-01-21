@@ -248,12 +248,12 @@ a:link, a:hover, a:visited, a:active
 	padding-top: 20px;
 }
 
-#about h2
+.section h2
 {
 	font-size: 22px;
 	color: white;
-	margin-top: 10px;
-	text-align: center;
+	/*margin-top: 10px;*/
+	/*text-align: center;*/
 	padding: 0;
 }
 
