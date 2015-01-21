@@ -1,3 +1,15 @@
+@media screen and (min-width: 0px) and (max-width: 800px)
+{
+	.navbar-fixed-top
+	{
+		display: none;	
+	}
+	.jumbotron p
+	{
+		display: none;
+	}
+}
+
 /* for debugging - turn on all borders */
 div, ul, h1, span
 {
