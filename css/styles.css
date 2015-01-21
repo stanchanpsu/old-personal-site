@@ -211,6 +211,7 @@ a:link, a:hover, a:visited, a:active
 .section img
 {
 /* 	border-radius: 5px; */
+	width: 100%;
 	border: 1px white solid;	
 }
 
@@ -238,7 +239,6 @@ a:link, a:hover, a:visited, a:active
 #about img
 {
 	top: 30px;
-	width: 100%;
 }
 
 #about .col-md-4
