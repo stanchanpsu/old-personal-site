@@ -35,7 +35,15 @@ font-family: 'Ubuntu', sans-serif;
 		display: none;
 	}
 }
-
+.text-muted
+{
+	color: rgba(255,255,255,.7);
+}
+.muted
+{
+	color: rgba(255,255,255,.7);
+	font-size: 20px;
+}
 /* turn off all underlines on links*/
 a:link, a:hover, a:visited, a:active
 {
@@ -206,7 +214,7 @@ a:link, a:hover, a:visited, a:active
 .section p
 {	
 	text-align: left;
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
 }
 
@@ -220,7 +228,7 @@ a:link, a:hover, a:visited, a:active
 
 .section h2
 {
-	font-size: 28px;
+	font-size: 40px;
 	color: white;
 	padding-bottom: 10px;
 	font-family: code;
@@ -228,13 +236,40 @@ a:link, a:hover, a:visited, a:active
 
 .section a
 {
-	color: #1effff;
+	color: #00d5e6;
 }
 
 .section a:hover
 {
-	color: #00d5e6;
+	color: #11edff;
 }	
+
+.button
+{
+	border-radius: 6px;
+	border: solid white 2px;
+	display: table;
+	margin-left: 0;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 30px;
+	background-color: rgba(92,198,255,0.2) 
+}
+
+.button:hover
+{
+	background-color: rgba(92,198,255,0.8);	
+}
+
+.button >p
+{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 18px;
+}
 
 .embed-responsive-16by9
 {
@@ -249,7 +284,6 @@ a:link, a:hover, a:visited, a:active
 {
 	background-color: #5d7b95;
 	padding-bottom: 60px;
-/* 	border: 1px solid blue; */
 }
 
 #about img
@@ -270,14 +304,20 @@ a:link, a:hover, a:visited, a:active
 	background-color: #596279;
 }
 
-.project-title
+.col-md-5 > p
 {
-	padding-bottom:10px;
+	font-size: 25px;	
 }
 
-#groot-img
+.col-md-5 > a
 {
-	padding-bottom: 10px;	
+	color: blue;	
+}
+
+.featurette
+{
+	display: flex;
+	align-items: center;	
 }
 
 footer

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 	<link href="/css/styles.css" type="text/css" rel="stylesheet"/>
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:500,500italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,500italic,700' rel='stylesheet' type='text/css'>
 	
 	
 <!--JavaScript -->
@@ -57,7 +57,7 @@
 				<div class="col-md-12">
 					<h1> About </h1>
 					<p> Hello world, I'm Stan! Currently, I am a junior Chemical Engineering student at Penn State which makes me really excited, but I also enjoy many other things. Recently, I've found a hobby in programming and web development after auditing a class from Harvard. So, to practice my new coding skills, I made this website to share with you the things that I love. Other interests of mine include <a target="blank" href="http://www.engr.psu.edu/ambassadors/">outreach and mentoring,</a> karate, and <a target="blank" href="http://peaceandjusticecenter.com/">peace &#38; justice.</a></p>
-					<p>I've also had a few amazing work experiences including creating<a target="blank" href="http://scholar.google.com/citations?user=EGPxoWwAAAAJ&hl=en"> artificial photosynthesis,</a> making toilet paper, and teaching <a target="blank" href="https://www.youtube.com/watch?v=8Wl2MJnp7J0">lego robotics</a> to children. When I'm not working or teaching, I enjoy learning to cook food or to hack software and electronics. Above all, I am happy being happy. To me, happiness is being passionate, in the moment, and living every day <i>like I'm going back in time to relive it on purpose.</i> I hope you can always do the same.
+					<p>I've also had a few amazing work experiences including creating<a target="blank" href="http://scholar.google.com/citations?user=EGPxoWwAAAAJ&hl=en"> artificial photosynthesis,</a> making toilet paper, and teaching <a target="blank" href="https://www.youtube.com/watch?v=8Wl2MJnp7J0">lego robotics</a> to children. When I'm not working or teaching, I enjoy learning to cook food or to hack software and electronics. Above all, I am happy being happy. To me, happiness is being passionate, in the moment, and living every day like I'm going back in time to relive it on purpose. I hope you can always do the same.
 				</div>
 				<div class="col-md-4">
 					<img src="/img/outing.jpg">
@@ -78,16 +78,52 @@
 		</div>		
 		<h1>Projects</h1>
 		<div class="container-fluid project">
-			<div class="container-fluid project-title">
-				<h2>Shy Dancing Baby Groot @ PennApps 2015</h2>
-			</div>
-			<div class="container-fluid col-md-4">
-				<p>This hack was made by me and my team mate <a href="http://www.bryanwtan.com">Bryan Tan</a>. We were inspired by the comedy of baby groot at the end of Guardians of the Galaxy and wanted to bring him to life. As far as I am aware, we are the first in the world to make baby groot dance to music and stop dancing if he catches you looking at him.</p>
-				<p>An aAduino Uno controls a stepper motor base under each Groot. An MSGEQ7 graphic equalizer chip filters live audio input and allows for switching between 7 frequency bands. Through trial and error, we wrote script to capture the song beat and trigger a reversal of motion on the stepper motors. This sharp direction change looks like a dance move!
+			 <hr class="featurette-divider">
 
-Python utilizing OpenCV accesses a computer's built in webcam to detect and track faces. If a face is detected, Python writes to serial using pySerial and tells Groot to stop moving. As soon as no faces are in view, Groot starts dancing again.</p>
-			</div>
-			<div class="container-fluid col-md-5">
+      <div class="row featurette">
+        <div class="col-md-5">
+          <h2>Dancing Baby Groot &#9834;<span class="text-muted"> PennApps 2015</span></h2>
+          <p>Inspired by the comedy of Guardians of the Galaxy, we decided to bring baby Groot to life.<div class="muted">Teammate | <a target="blank" href="http://www.bryanwtan.com">Bryan Tan</a></div></p>
+			<a href="#"><div class="container-fluid button" id="groot-learn-more">
+				<p>Learn More</p>
+			</div></a>
+        </div>
+        <div class="col-md-7">
+          <div class="embed-responsive embed-responsive-16by9" id="groot-video">
+					<iframe src="//www.youtube.com/embed/uo7Lgxrq2RI" allowfullscreen></iframe>
+				</div>
+<!-- 			<img src="/img/groot_arduino.jpg"> -->
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+			<div class="container-fluid col-md-4">
 				<div class="embed-responsive embed-responsive-16by9" id="groot-video">
 					<iframe src="//www.youtube.com/embed/uo7Lgxrq2RI" allowfullscreen></iframe>
 				</div>
@@ -104,7 +140,7 @@ Python utilizing OpenCV accesses a computer's built in webcam to detect and trac
 
 			
 		</div>
-	</div>
+	
 	<div class="section">
 		<div id="blog">
 			<div class="buffer">
