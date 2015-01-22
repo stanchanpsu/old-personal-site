@@ -13,7 +13,7 @@
 /* for debugging - turn on all borders */
 div, ul, h1, span
 {
- 	/*border: red 1px solid;	 */
+/*  	border: red 1px solid;	 */
 }
 
 @font-face 
@@ -48,35 +48,35 @@ a:link, a:hover, a:visited, a:active
 	background: rgba(255,255,255, 0.6);
 	align-items: center;
 }
-.center-pills
-{
-	min-height: 60px;
-	height: -5vw;
-	text-align: center;
-}
+								.center-pills
+								{
+									min-height: 60px;
+									height: -5vw;
+									text-align: center;
+								}
 
-.nav-pills
-{
-	position: relative;
-	top: 4px;
-	font-size: 24px; 
-	display: inline-block;
-}
-.nav-pills li a
-{
-	padding-left: 25px;
-	padding-right: 25px;
-	font-family: code;
-}
-.nav-pills li a:hover
-{
-	background-color: rgba(92,198,255,0.4);	
-}
+								.nav-pills
+								{
+									position: relative;
+									top: 4px;
+									font-size: 24px; 
+									display: inline-block;
+								}
+								.nav-pills li a
+								{
+									padding-left: 25px;
+									padding-right: 25px;
+									font-family: code;
+								}
+								.nav-pills li a:hover
+								{
+									background-color: rgba(92,198,255,0.4);	
+								}
 
-.nav-pills li a: active
-{
-	background-color: rgba(92,198,255,0.4);	
-}
+								.nav-pills li a: active
+								{
+									background-color: rgba(92,198,255,0.4);	
+								}
 
 /* jumbotron */
 .jumbotron
@@ -92,100 +92,100 @@ a:link, a:hover, a:visited, a:active
 	text-align: center;
 }
 
-.jumbotron img
-{
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	border: 5px white solid;
-}	
+								.jumbotron img
+								{
+									width: 200px;
+									height: 200px;
+									border-radius: 50%;
+									border: 5px white solid;
+								}	
 
-.vertical-center 
-{	
-	position: relative;
-	top: -48px;
-	min-height: 600px;
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-/* 	background-color: rgba(0,0,0,0.1); */
-}
+								.vertical-center 
+								{	
+									position: relative;
+									top: -48px;
+									min-height: 600px;
+									min-height: 100vh;
+									display: flex;
+									align-items: center;
+								/* 	background-color: rgba(0,0,0,0.1); */
+								}
 
-#jumbotron-content
-{
-	position: relative;
-	top: 50px;
-	min-height: 100px;
-	height: 40 vh;
-}
+								#jumbotron-content
+								{
+									position: relative;
+									top: 50px;
+									min-height: 100px;
+									height: 40 vh;
+								}
 
-.jumbotron #jumbotron-text, #jumbotron-image
-{
-	display:inline-block;
-	vertical-align: middle;
-}
+								.jumbotron #jumbotron-text, #jumbotron-image
+								{
+									display:inline-block;
+									vertical-align: middle;
+								}
 
-.jumbotron h1
-{
-	color: white;
-	font-weight: 500;
-	font-size: 70px;
-	text-align: left;
-	padding: 0;
-	font-family: code;
-	
-}
-.jumbotron p
-{
-	color: rgba(256,256,256,1);
-	text-align: left;
-	font-size: 35px;
-/* 	font-size: 2.3vw; */
-	text-outline: 2px solid black;
-	max-width: 700px;
-	font-family: code;
-}
+								.jumbotron h1
+								{
+									color: white;
+									font-weight: 500;
+									font-size: 70px;
+									text-align: left;
+									padding: 0;
+									font-family: code;
 
-/* Get to Know me button */
+								}
+								.jumbotron p
+								{
+									color: rgba(256,256,256,1);
+									text-align: left;
+									font-size: 35px;
+								/* 	font-size: 2.3vw; */
+									text-outline: 2px solid black;
+									max-width: 700px;
+									font-family: code;
+								}
 
-#get-to
-{	
-	display: table;
-	width: 200px;
-	height: 75px;
-	border-radius: 12px;
-	border: solid white 5px;
-	text-align: center;
-	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 6vw;
-	background-color: rgba(92,198,255,0.2);
-}
+								/* Get to Know me button */
 
-#get-to:hover
-{
-	background-color: rgba(92,198,255,0.6);	
-}
+								#get-to
+								{	
+									display: table;
+									width: 200px;
+									height: 75px;
+									border-radius: 12px;
+									border: solid white 5px;
+									text-align: center;
+									vertical-align: middle;
+									margin-left: auto;
+									margin-right: auto;
+									margin-top: 6vw;
+									background-color: rgba(92,198,255,0.2);
+								}
 
-#get-to p
-{
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 19px;
-	font-weight: 500;
-}
+								#get-to:hover
+								{
+									background-color: rgba(92,198,255,0.6);	
+								}
 
-#get-to a
-{
-	border: 1px red solid;
-	padding-left: 5px;
-	padding-right:5px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	color: white;
-}
+								#get-to p
+								{
+									text-align: center;
+									display: table-cell;
+									vertical-align: middle;
+									font-size: 19px;
+									font-weight: 500;
+								}
+
+								#get-to a
+								{
+									border: 1px red solid;
+									padding-left: 5px;
+									padding-right:5px;
+									padding-top: 25px;
+									padding-bottom: 25px;
+									color: white;
+								}
 
  /* each section */
 .section
@@ -200,24 +200,46 @@ a:link, a:hover, a:visited, a:active
 	font-size: 60px;
 	text-align: center;
 	font-family: code;
+	color: white;
 }
 
 .section p
 {	
 	text-align: left;
-	font-size: 22px;
+	font-size: 24px;
+	color: white;
 }
 
 .section img
 {
 /* 	border-radius: 5px; */
 	width: 100%;
-	border: 1px white solid;	
+	border: 1px white solid;
+	vertical-align: middle;
 }
+
+.section h2
+{
+	font-size: 28px;
+	color: white;
+	padding-bottom: 10px;
+	font-family: code;
+}
+
+.section a
+{
+	color: #1effff;
+}
+
+.section a:hover
+{
+	color: #00d5e6;
+}	
 
 .embed-responsive-16by9
 {
-	border: 1px white solid;	
+	border: 1px white solid;
+	margin-bottom: 30px;
 }
 
 /* 60px at the top of each section for overlap with navbar */
@@ -230,12 +252,6 @@ a:link, a:hover, a:visited, a:active
 /* 	border: 1px solid blue; */
 }
 
-#about p, h1
-{
-	text-align: left;
-	color: white;
-}
-
 #about img
 {
 	top: 30px;
@@ -246,34 +262,22 @@ a:link, a:hover, a:visited, a:active
 	padding-top: 20px;
 }
 
-.section h2
-{
-	font-size: 24px;
-	color: white;
-	/*margin-top: 10px;*/
-	/*text-align: center;*/
-	padding: 0;
-}
 
-#about a
-{
-	color: #1effff;
-}
-
-#about a:hover
-{
-	color: #00d5e6;
-}	
 
 /* projects */
 #projects
 {
-	background-color: #dfa06c;
+	background-color: #596279;
 }
 
 .project-title
 {
 	padding-bottom:10px;
+}
+
+#groot-img
+{
+	padding-bottom: 10px;	
 }
 
 footer

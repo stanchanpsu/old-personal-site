@@ -81,17 +81,27 @@
 			<div class="container-fluid project-title">
 				<h2>Shy Dancing Baby Groot @ PennApps 2015</h2>
 			</div>
+			<div class="container-fluid col-md-4">
+				<p>This hack was made by me and my team mate <a href="http://www.bryanwtan.com">Bryan Tan</a>. We were inspired by the comedy of baby groot at the end of Guardians of the Galaxy and wanted to bring him to life. As far as I am aware, we are the first in the world to make baby groot dance to music and stop dancing if he catches you looking at him.</p>
+				<p>An aAduino Uno controls a stepper motor base under each Groot. An MSGEQ7 graphic equalizer chip filters live audio input and allows for switching between 7 frequency bands. Through trial and error, we wrote script to capture the song beat and trigger a reversal of motion on the stepper motors. This sharp direction change looks like a dance move!
+
+Python utilizing OpenCV accesses a computer's built in webcam to detect and track faces. If a face is detected, Python writes to serial using pySerial and tells Groot to stop moving. As soon as no faces are in view, Groot starts dancing again.</p>
+			</div>
 			<div class="container-fluid col-md-5">
 				<div class="embed-responsive embed-responsive-16by9" id="groot-video">
 					<iframe src="//www.youtube.com/embed/uo7Lgxrq2RI" allowfullscreen></iframe>
 				</div>
+				<img src="/img/groot_arduino.jpg">
 			</div>
-			<div class="container-fluid col-md-2">
+			<div class="container-fluid col-md-3">
+				<div id="groot-img">
 				<img src="/img/groot.jpg">
+				</div>
+				<div>
+				<img src="/img/Capture.PNG">
+				</div>
 			</div>
-			<div class="container-fluid col-md-5">
-				<p>Awesome hack by me and <a href="http://www.bryanwtan.com">Bryan Tan</a></p>
-			</div>
+
 			
 		</div>
 	</div>
