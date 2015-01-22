@@ -13,7 +13,7 @@
 /* for debugging - turn on all borders */
 div, ul, h1, span
 {
-/*  	border: red 1px solid;	 */
+ 	border: red 1px solid;	
 }
 
 @font-face 
@@ -39,11 +39,14 @@ font-family: 'Ubuntu', sans-serif;
 {
 	color: rgba(255,255,255,.7);
 }
-.muted
+
+.col-md-5 > .muted
 {
 	color: rgba(255,255,255,.7);
 	font-size: 20px;
+	padding-bottom: 30px;
 }
+
 /* turn off all underlines on links*/
 a:link, a:hover, a:visited, a:active
 {
@@ -253,8 +256,6 @@ a:link, a:hover, a:visited, a:active
 	padding: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	position: relative;
-	top: 30px;
 	background-color: rgba(92,198,255,0.2) 
 }
 
@@ -304,6 +305,8 @@ a:link, a:hover, a:visited, a:active
 	background-color: #596279;
 }
 
+.col-md-5 {padding-top: 5vw; padding-bottom:5vw;}
+
 .col-md-5 > p
 {
 	font-size: 25px;	
@@ -312,12 +315,6 @@ a:link, a:hover, a:visited, a:active
 .col-md-5 > a
 {
 	color: blue;	
-}
-
-.featurette
-{
-	display: flex;
-	align-items: center;	
 }
 
 footer
