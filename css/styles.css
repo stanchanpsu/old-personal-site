@@ -121,41 +121,15 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= BLOG ===========*/
 
-#blog{background-color: blue;}
+#blog{background-color: #8c6079; }
 
-footer
-{
-	padding: 0 !important;
-	margin: 0;
-	background-color: rgba(0,0,0, 0.7);	
-}
+/*============= CONTACT ===========*/
 
-footer div
-{	
-	width: 100%;
-	height: 20px;
-	position: relative;
-	top: 80%;
-}
+#contact {background-color: rgba(0,0,0,0.7); padding-top: 80px;}
+#contact a {font-size: 30px; font-family: code; color: white; padding: 10px;}
+.center { text-align: center; background-color:rgba(0,0,0,0.7); }
+.icon { height: 100px;}
+#email { background-color: #5d7b95; font-size: 50px; text-align: center; padding: 0; margin: 0; }
+#github { border-radius: 50%; padding-left: 10px; padding-right: 20px;}
 
-footer p
-{
-	text-align: right;
-	padding-right: 50px;
-	color: white;	
-	font-family: code;
-}
-
-#show-email
-{
-	height: 10px;
-	width: 10px;
-}
-
-#email
-{
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	background-color: green;	
-}
+footer  { text-align: right; padding-right: 50px;  color: white; font-family: code; background-color: rgba(0,0,0,0.7); font-size: 20px; padding-bottom: 10px;}

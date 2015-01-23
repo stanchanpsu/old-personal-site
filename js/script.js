@@ -6,7 +6,10 @@ $(document).ready(function(){
 
 function email(){
 	$('#email').hide();
-	$("#show-email").on('click', function(e){
+	$('#email-icon').on('click', function(e){
+       $('#email').slideToggle("fast");
+        });
+	$('#email-text').on('click', function(e){
        $('#email').slideToggle("fast");
         });
 }
