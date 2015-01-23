@@ -1,20 +1,16 @@
-@media screen and (min-width: 0px) and (max-width: 800px)
+@media screen and (min-width: 0px) and (max-width: 925px)
 {	
 	.navbar-fixed-top { display: none;}
 	.jumbotron p { display: none;}
+	.jumbotron #get-to { display: none; }
+	#get-to a { display: none; }
+	.jumbotron h1 { text-align: center; }
 }
 
 /* div, ul, h1, span { border: red 1px solid; } */
 
 @font-face { font-family: code; src: url(/fonts/code_font.otf); }
 
-font-family: 'Ubuntu', sans-serif;
-
-.text-muted { color: rgba(255,255,255,.7); }
-
-.col-md-5 > .muted { color: rgba(255,255,255,.7); font-size: 20px; padding-bottom: 30px; }
-
-/* turn off all underlines on links*/
 a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 
@@ -37,13 +33,13 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 /*============= JUMBOTRON ===========*/
 
 .jumbotron { margin: 0px; background-image: url('/img/background.jpg'); background-size: cover;	background-repeat: no-repeat; background-position: 0% 50%;
-			min-height: 500px; height: 100vh; text-align: center; }
+			 height: 100vh; min-height: 500px; text-align: center; }
 
 .jumbotron img { width: 200px; height: 200px; border-radius: 50%; border: 5px white solid; }	
 
 	.vertical-center {	position: relative;	top: -48px;	min-height: 600px; min-height: 100vh; display: flex; align-items: center; }
 
-	#jumbotron-content{ display: inline;}
+	#jumbotron-content{ display: inline; padding-top: 60px;}
 
 	.jumbotron #jumbotron-text, #jumbotron-image { display:inline-block; vertical-align: middle; }
 
@@ -60,7 +56,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	#get-to:hover{ background-color: rgba(92,198,255,0.6); }
 
-	#get-to p { width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 20px; }
+	#get-to p { width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 19px; }
 
 	#get-to a {  padding-top: 25px; padding-bottom: 25px; color: white;	}
 
@@ -71,7 +67,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.section h1 { font-size: 60px; text-align: center; font-family: code; color: white; }
 
-	.section h2{ font-size: 40px; color: white;	padding-bottom: 10px; font-family: code; }
+	.section h2{ font-size: 50px; color: white;	padding-bottom: 10px; font-family: code; }
 
 	.section p { text-align: left; font-size: 22px; color: white; }
 
@@ -79,21 +75,24 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.section a { color: #00d5e6; }
 	
-	.section a:hover { color: #11edff; }	
+	.section a:hover { color: #11edff; }
+
+
+
 
 
 /*============= BUTTON ===========*/
 
-.button { border-radius: 6px; border: solid white 2px; display: table; margin-left: 0; padding: 10px; padding-top: 5px; 
-			padding-bottom: 5px; background-color: rgba(92,198,255,0.2) }
+.button { border-radius: 6px; border: solid white 2px; display: table; margin-left: 0; margin-top: 50px; 
+			background-color: rgba(92,198,255,0.2); padding: 8px; }
 
 	.button:hover { background-color: rgba(92,198,255,0.4);	}
 
-	.button > p { display: table-cell; vertical-align: middle; text-align: left; font-size: 18px;}
+	.button > p { display: table-cell; vertical-align: middle; text-align: left; font-size: 18px; }
 	
-	.button > p> a { color: white;} .button > p > a:hover {color: white;}
+	.button > p > a { color: white; padding-top: 10px; padding-bottom: 10px; } .button > p > a:hover {color: white;}
 
-.embed-responsive-16by9 { border: 1px white solid; margin-bottom: 30px; }
+	.embed-responsive-16by9 { border: 1px white solid; margin-top: 30px; margin-bottom: 30px; }
 
 
 /*============= ABOUT ===========*/
@@ -110,9 +109,19 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 #projects { background-color: #596279; }
 
-#projects .col-md-5 {padding-top: 5vw; padding-bottom:5vw;}
+	#projects .col-md-5 {margin-top: 50px; }	
 
-#projects .col-md-5 > p { font-size: 25px; }
+	#projects .col-md-5 > p { font-size: 25px; }
+
+	#projects .text-muted {color: rgba(255,255,255,0.7);}
+
+	#projects .note { font-size: 20px; color: rgba(255,255,255,0.7); }
+
+
+
+/*============= BLOG ===========*/
+
+#blog{background-color: blue;}
 
 footer
 {
@@ -134,6 +143,7 @@ footer p
 	text-align: right;
 	padding-right: 50px;
 	color: white;	
+	font-family: code;
 }
 
 #show-email
