@@ -2,7 +2,8 @@ $(document).ready(function(){
 	smoothScroll();
 	activeLink();
 	email();
-})
+
+});
 
 function email(){
 	$('#email').hide();
@@ -45,7 +46,6 @@ function activeLink(){
 
 		var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
-		console.log(scrollBottom)
 
 		if(top < about){
 			$('a[href="#home"]').addClass('active');
