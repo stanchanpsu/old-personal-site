@@ -16,7 +16,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= NAVBAR ===========*/
 
-.navbar-fixed-top { background: rgba(255,255,255, 0.6);	align-items: center; }
+.navbar-fixed-top { background: rgba(255,255,255, 0.6);	align-items: center; letter-spacing: 1.5px;}
 								
 	.center-pills { min-height: 60px; height: -5vw; text-align: center;	}
 
@@ -33,7 +33,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 /*============= JUMBOTRON ===========*/
 
 .jumbotron { margin: 0px; background-image: url('/img/background.jpg'); background-size: cover;	background-repeat: no-repeat; background-position: 0% 50%;
-			 height: 100vh; min-height: 500px; text-align: center; }
+			 height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.5px;}
 
 .jumbotron img { width: 200px; height: 200px; border-radius: 50%; border: 5px white solid; }	
 
@@ -52,7 +52,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 /*============= GET TO KNOW ME ===========*/
 
 #get-to { display: table; width: 200px; height: 75px; border-radius: 12px; border: solid white 5px;	text-align: center;	vertical-align: 
-			middle;	margin-left: auto;  margin-right: auto; margin-top: 6vw; background-color: rgba(92,198,255,0.2); }
+			middle;	margin-left: auto;  margin-right: auto; margin-top: 6vw; background-color: rgba(92,198,255,0.2);letter-spacing: .5px; }
 
 	#get-to:hover{ background-color: rgba(92,198,255,0.6); }
 
@@ -65,9 +65,9 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 .section { padding: 60px; padding-left: 3vw; padding-right: 3vw; }
 
-	.section h1 { font-size: 60px; text-align: center; font-family: code; color: white; }
+	.section h1 { font-size: 60px; text-align: center; font-family: code; color: white; letter-spacing: 1.5px;}
 
-	.section h2{ font-size: 50px; color: white;	padding-bottom: 10px; font-family: code; }
+	.section h2{ font-size: 45px; color: white;	padding-bottom: 10px; font-family: code; letter-spacing: 1.5px;}
 
 	.section p { text-align: left; font-size: 22px; color: white; }
 
@@ -113,7 +113,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	#projects .col-md-5 > p { font-size: 25px; }
 
-	#projects .text-muted {color: rgba(255,255,255,0.7);}
+	#projects .text-muted {color: rgba(255,255,255,0.7); letter-spacing: 2px;}
 
 	#projects .note { font-size: 20px; color: rgba(255,255,255,0.7); }
 
@@ -125,11 +125,16 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= CONTACT ===========*/
 
-#contact {background-color: rgba(0,0,0,0.7); padding-top: 80px;}
-#contact a {font-size: 30px; font-family: code; color: white; padding: 10px;}
-.center { text-align: center; background-color:rgba(0,0,0,0.7); }
-.icon { height: 100px;}
-#email { background-color: #5d7b95; font-size: 50px; text-align: center; padding: 0; margin: 0; }
-#github { border-radius: 50%; padding-left: 10px; padding-right: 20px;}
+#contact {background-color: rgba(0,0,0,0.7); padding: 10px;}
 
-footer  { text-align: right; padding-right: 50px;  color: white; font-family: code; background-color: rgba(0,0,0,0.7); font-size: 20px; padding-bottom: 10px;}
+#icons {background-color: rgba(0,0,0,0.7); padding-top: 30px; padding-bottom: 30px;}
+#icons a {font-size: 20px; font-family: code; color: white; padding-right: 20px;}
+.center { text-align: center; background-color:rgba(0,0,0,0.7); }
+.icon { height: 80px; width: 80px;}
+#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; color: white; vertical-align: middle;}
+#email p { margin: 0; padding: 10px;}
+#github { border-radius: 25%; padding-left: 0px; padding-right: 0px;}
+#resume-icon { border-radius: 15%; padding-left: 0px; padding-right: 0px;}
+
+footer  { text-align: right; padding-right: 50px; background-color: rgba(0,0,0,0.7); padding-bottom: 10px;}
+footer p { color: white; font-size: 18px; font-family: code; padding-top: 10px; vertical-align: middle;}
