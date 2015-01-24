@@ -51,12 +51,12 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= GET TO KNOW ME ===========*/
 
-#get-to { display: table; width: 220px; height: 75px; border-radius: 12px; border: solid white 5px;	text-align: center;	vertical-align: 
+#get-to { display: table; width: 218px; height: 75px; border-radius: 12px; border: solid white 5px;	text-align: center;	vertical-align: 
 			middle;	margin-left: auto;  margin-right: auto; margin-top: 6vw; background-color: rgba(92,198,255,0.2);letter-spacing: .5px; }
 
 	#get-to:hover{ background-color: rgba(92,198,255,0.6); }
 
-	#get-to p { width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 19px; }
+	#get-to p {width: 100%; text-align: center; display: table-cell; vertical-align: middle; font-size: 21px; }
 
 	#get-to a {  padding-top: 25px; padding-bottom: 25px; color: white;	}
 
