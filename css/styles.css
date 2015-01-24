@@ -26,7 +26,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 								
 	.nav-pills li a:hover { background-color: rgba(92,198,255,0.4);	}
 
-	.nav-pills li a:active { background-color: rgba(92,198,255,0.4); }
+	.active { background-color: rgba(92,198,255,0.4); }
 
 
 
@@ -127,10 +127,11 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 #contact {background-color: rgba(0,0,0,0.7); padding: 10px;}
 
-#icons {background-color: rgba(0,0,0,0.7); padding-top: 30px; padding-bottom: 30px;}
-#icons a {font-size: 20px; font-family: code; color: white; padding-right: 20px;}
+#icons {background-color: rgba(0,0,0,0.7);}
+#icons a {font-size: 20px; font-family: code; color: white; }
 .center { text-align: center; background-color:rgba(0,0,0,0.7); }
 .icon { height: 80px; width: 80px;}
+.icon-contain{ display: inline-block; padding: 30;}
 #email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; color: white; vertical-align: middle;}
 #email p { margin: 0; padding: 10px;}
 #github { border-radius: 25%; padding-left: 0px; padding-right: 0px;}

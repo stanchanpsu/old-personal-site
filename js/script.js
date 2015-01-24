@@ -8,11 +8,23 @@ $(document).ready(function(){
 function email(){
 	$('#email').hide();
 	$('#email-icon').on('click', function(e){
-       $('#email').slideToggle("fast");
-        });
+		$('#email').slideToggle("fast", function(){
+			$('body').stop().animate({
+			'scrollTop': $('#email').offset().top
+			}, 350, 'swing', function () {
+			window.location.hash = "#contact";
+			});
+		});
+	});
 	$('#email-text').on('click', function(e){
-       $('#email').slideToggle("fast");
-        });
+       $('#email').slideToggle("fast", function(){
+			$('body').stop().animate({
+			'scrollTop': $('#email').offset().top
+			}, 350, 'swing', function () {
+			window.location.hash = "#contact";
+			});
+	   });
+   });
 }
 
 function smoothScroll(){
@@ -20,11 +32,11 @@ function smoothScroll(){
 		e.preventDefault();
 
 		var target = this.hash;
-		var $target = $(target);
+		var $target = $(this.hash);
 
-		$('html, body').stop().animate({
+		$('body').stop().animate({
 			'scrollTop': $target.offset().top
-		}, 250, 'swing', function () {
+		}, 280, 'swing', function () {
 			window.location.hash = target;
 		});
 	});
