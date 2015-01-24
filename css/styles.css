@@ -51,7 +51,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= GET TO KNOW ME ===========*/
 
-#get-to { display: table; width: 200px; height: 75px; border-radius: 12px; border: solid white 5px;	text-align: center;	vertical-align: 
+#get-to { display: table; width: 220px; height: 75px; border-radius: 12px; border: solid white 5px;	text-align: center;	vertical-align: 
 			middle;	margin-left: auto;  margin-right: auto; margin-top: 6vw; background-color: rgba(92,198,255,0.2);letter-spacing: .5px; }
 
 	#get-to:hover{ background-color: rgba(92,198,255,0.6); }
@@ -141,16 +141,16 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 	
 	#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
 	
-	#email p, a { margin: 0; padding: 5px; color: white;}
+	.email > p > a { margin: 0; padding: 5px; color: white;}
 
-	#email a:hover { color: #46a5dd; }
+	.email > p > a:hover { color: #46a5dd; }
 
 
 /* figure out why this doesn't work */
 
-	#email > p > a:visited { color: white; }
+	.email > p > a:visited { color: white; }
 
-	#email > p > a:active { color: white; }
+	.email > p > a:active { color: white; }
 
 
 /*============== FOOTER =============*/
