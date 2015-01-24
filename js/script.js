@@ -58,15 +58,11 @@ function activeLink(){
 
 		var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
-
 		if(top < about){
 			$('a[href="#home"]').addClass('active');
 		}
-		else if(top < gallery){
-			$('a[href="#about"]').addClass('active');
-		}
 		else if(top < projects){
-			$('a[href="#gallery"]').addClass('active');
+			$('a[href="#about"]').addClass('active');
 		}
 		else if(top < blog){
 			$('a[href="#projects"]').addClass('active');

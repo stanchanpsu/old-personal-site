@@ -24,9 +24,13 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.nav-pills li a	{ padding-left: 25px; padding-right: 25px; font-family: code; }
 								
-	.nav-pills li a:hover { background-color: rgba(92,198,255,0.4);	}
+	.nav-pills li a:hover { background-color: rgba(92,198,255,0.5);	}
 
-	.active { background-color: rgba(92,198,255,0.4); }
+	.nav-pills li a:active { background-color: none;}
+
+	.nav-pills li a:visited { background-color: none;}
+
+	.active { background-color: rgba(92,198,255,0.5); border: navy solid 2px; }
 
 
 
@@ -69,7 +73,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.section h2{ font-size: 45px; color: white;	padding-bottom: 10px; font-family: code; letter-spacing: 2px;}
 
-	.section p { text-align: left; font-size: 22px; color: white; }
+	.section p { text-align: left; font-size: 24px; color: white; }
 
 	.section img { width: 100%;	border: 1px white solid; vertical-align: middle; }
 
@@ -121,8 +125,9 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= BLOG ===========*/
 
-#blog{background-color: #5f6f7c; }
+#blog {background-color: #5f6f7c; }
 
+	.blog-text {font-family: Ubuntu; font-size: 30px;}
 /*============= CONTACT ===========*/
 
 #contact {background-color: rgba(0,0,0,0.7); padding: 10px;}
@@ -133,20 +138,13 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.icon-contain{ display: inline-block; padding: 30px; }
 
-	.icon { height: 80px; width: 80px;}	
-
-		#github { border-radius: 25%; padding-left: 0px; padding-right: 0px;}
-
-		#resume-icon { border-radius: 15%; padding-left: 0px; padding-right: 0px;}
+	.icon { height: 80px; width: 80px; border-radius: 15%;}	
 	
 	#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
 	
 	.email > p > a { margin: 0; padding: 5px; color: white;}
 
 	.email > p > a:hover { color: #46a5dd; }
-
-
-/* figure out why this doesn't work */
 
 	.email > p > a:visited { color: white; }
 
@@ -156,4 +154,5 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 /*============== FOOTER =============*/
 
 footer  { text-align: right; padding-right: 50px; background-color: rgba(0,0,0,0.7); padding-bottom: 10px;}
-footer p { color: white; font-size: 18px; font-family: code; padding-top: 10px; vertical-align: middle;}
+
+footer p { color: white; font-size: 18px; font-family: code; padding-top: 10px; vertical-align: middle; letter-spacing: 1.5px;}
