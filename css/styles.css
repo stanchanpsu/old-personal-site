@@ -20,17 +20,17 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 								
 	.center-pills { min-height: 60px; height: -5vw; text-align: center;	}
 
-	.nav-pills { position: relative; top: 4px; font-size: 24px; display: inline-block; }
+	.nav-pills { position: relative; top: 3px; font-size: 24px; display: inline-block; }
 
 	.nav-pills li a	{ padding-left: 25px; padding-right: 25px; font-family: code; }
 								
 	.nav-pills li a:hover { background-color: rgba(92,198,255,0.5);	}
 
-	.nav-pills li a:active { background-color: none;}
+	.nav-pills li a:active { background-color: rgba(92,198,255,0); }
 
-	.nav-pills li a:visited { background-color: none;}
+	.nav-pills li a:visited { background-color: rgba(92,198,255,0);}
 
-	.active { background-color: rgba(92,198,255,0.5); border: navy solid 2px; }
+	.active { background-color: rgba(92,198,255,0.5); color: #23527c; }
 
 
 
@@ -141,6 +141,8 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 	.icon { height: 80px; width: 80px; border-radius: 15%;}	
 	
 	#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
+
+#email p { margin: 0;}
 	
 	.email > p > a { margin: 0; padding: 5px; color: white;}
 
