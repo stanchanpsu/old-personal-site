@@ -16,7 +16,10 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= NAVBAR ===========*/
 
-.navbar-fixed-top { background: rgba(255,255,255, 0.6);	align-items: center; letter-spacing: 1.5px;}
+.navbar-fixed-top {  background: -webkit-linear-gradient(white, rgba(255,255,255,0.5));
+  background: -o-linear-gradient(white, rgba(255,255,255,0.5)); 
+  background: -moz-linear-gradient(white, rgba(255,255,255,0.5));
+  background: linear-gradient(white, rgba(255,255,255,0.6));	align-items: center; letter-spacing: 1.5px;}
 								
 	.center-pills { min-height: 60px; height: -5vw; text-align: center;	}
 
@@ -127,7 +130,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 #blog {background-color: #5f6f7c; }
 
-	.blog-text {font-family: Ubuntu; font-size: 30px;}
+	.text {font-family: Ubuntu; font-size: 30px; color: white; letter-spacing: 2px;}
 /*============= CONTACT ===========*/
 
 #contact {background-color: rgba(0,0,0,0.7); padding: 10px;}
