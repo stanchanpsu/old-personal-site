@@ -11,13 +11,13 @@
 
 @font-face { font-family: code; src: url(/fonts/code_font.otf); }
 
-a:link, a:hover, a:visited, a:active { text-decoration: none; }
+.hide-load { display: none;}
 
 .loader {display: flex; align-items: center; height: 100vh; background-color: #66ceff; background-repeat: no-repeat; z-index: 200; position: fixed; width: 100vw; background-position: center; padding-left: auto; padding-right: auto;}
 
 .loader img { display: block; margin: auto; }
 
-body { display: hide; }
+a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= NAVBAR ===========*/
 

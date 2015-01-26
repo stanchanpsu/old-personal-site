@@ -1,12 +1,13 @@
 $(window).load(function() {
 	$('.loader').fadeOut(1500);
-	$('body').fadeIn(1500);
+// 	$('.hide-load').fadeIn(1500);
 })
 
 $(document).ready(function(){
 	smoothScroll();
 	activeLink();
 	email();
+	$('.hide-load').fadeIn(1500);
 
 });
 
