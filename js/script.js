@@ -1,3 +1,8 @@
+$(window).load(function() {
+	$('.loader').fadeOut(1500);
+	$('body').fadeIn(1500);
+})
+
 $(document).ready(function(){
 	smoothScroll();
 	activeLink();
