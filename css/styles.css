@@ -15,7 +15,9 @@
 
 .loader {display: flex; align-items: center; height: 100vh; background-color: #66ceff; background-repeat: no-repeat; z-index: 200; position: fixed; width: 100vw; background-position: center; padding-left: auto; padding-right: auto;}
 
-.loader img { display: block; margin: auto; }
+.loading-content { display: block; margin: auto;}
+
+.loader p { color: white; display: block; margin: auto; text-align: center; font-size: 20px; }
 
 a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
@@ -28,15 +30,15 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 								
 	.center-pills { min-height: 60px; height: -5vw; text-align: center;	}
 
-	.nav-pills { position: relative; top: 3px; font-size: 24px; display: inline-block; }
+	.nav-pills { position: relative; top: 3px; font-size: 24px; display: inline-block; /*prevent double click highlighting*/-webkit-user-select: none; /* Chrome/Safari */       -moz-user-select: none; /* Firefox */ -ms-user-select: none; /* IE10+ */}
 
-	.nav-pills li a	{ padding-left: 25px; padding-right: 25px; font-family: code; }
+	.nav-pills li a:link	{ background-color: none; padding-left: 25px; padding-right: 25px; font-family: code; }
 								
 	.nav-pills li a:hover { background-color: rgba(92,198,255,0.5);	}
 
 	.nav-pills li a:active { background-color: rgba(92,198,255,0); }
 
-	.nav-pills li a:visited { background-color: rgba(92,198,255,0);}
+	.nav-pills li a:visited { background-color: (0,0,0,0);}
 
 	.active { background-color: rgba(92,198,255,0.5); color: #23527c; }
 

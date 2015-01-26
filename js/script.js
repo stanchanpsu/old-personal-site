@@ -1,6 +1,5 @@
 $(window).load(function() {
 	$('.loader').fadeOut(1500);
-// 	$('.hide-load').fadeIn(1500);
 })
 
 $(document).ready(function(){
@@ -55,25 +54,28 @@ function activeLink(){
 	  })
 
 		var top = $(window).scrollTop();
+		
+		var height = $(window).height();
 
-		var home = $('#home').offset().top -2;
-		var about = $('#about').offset().top -2;
-		var projects = $('#projects').offset().top -2;
-		var blog = $('#blog').offset().top -2;
-		var contact = $('#contact').offset().top -2;
+		var home = $('#home').offset().top;
+		var about = $('#about').offset().top;
+		var projects = $('#projects').offset().top;
+		var blog = $('#blog').offset().top;
+		var contact = $('#contact').offset().top;
 
 		var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
-		if(top < about){
+
+		if(top < about - (about-home)/2){
 			$('a[href="#home"]').addClass('active');
 		}
-		else if(top < projects){
+		else if(top < projects - (projects-about)/2 + 160){
 			$('a[href="#about"]').addClass('active');
 		}
-		else if(top < blog){
+		else if(top < blog - (blog-projects)/2 + 160){
 			$('a[href="#projects"]').addClass('active');
 		}
-		else if(top < contact && scrollBottom >= 2){
+		else if(top < contact - (contact-blog)/2 + 160 && scrollBottom >= 2){
 			$('a[href="#blog"]').addClass('active');
 		}
 		else{
