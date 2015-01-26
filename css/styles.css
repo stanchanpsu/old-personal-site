@@ -5,6 +5,7 @@
 	.jumbotron #get-to { display: none; }
 	#get-to a { display: none; }
 	.jumbotron h1 { text-align: center; }
+/* 	.loader {display: none;} */
 }
 
 /* div, ul, h1, span { border: red 1px solid; } */

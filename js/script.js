@@ -1,5 +1,5 @@
 	$(window).load(function() {
-			$('.loader').fadeOut(2000);
+			$('.loader').fadeOut(3000);
 		smoothScroll();
 		activeLink();
 		email();
