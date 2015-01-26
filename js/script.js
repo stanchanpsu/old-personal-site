@@ -1,15 +1,14 @@
-	$(window).load(function() {
-			$('.loader').fadeOut(3000);
-		smoothScroll();
-		activeLink();
-		email();
-	});
+
+
+$(window).load(function() {
+	$('.loader').fadeOut(3000);
+});
 
 $(document).ready(function(){
 	smoothScroll();
 	activeLink();
 	email();
-	});
+});
 
 function email(){
 	$('#email').hide();

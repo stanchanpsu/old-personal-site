@@ -5,18 +5,17 @@
 	.jumbotron #get-to { display: none; }
 	#get-to a { display: none; }
 	.jumbotron h1 { text-align: center; }
-/* 	.loader {display: none;} */
 }
 
 /* div, ul, h1, span { border: red 1px solid; } */
 
 @font-face { font-family: code; src: url(/fonts/code_font.otf); }
 
-/* .hide-load { display: none;} */
-
 .loader {display: flex; align-items: center; height: 100vh; background-color: #66ceff; background-repeat: no-repeat; z-index: 200; position: fixed; width: 100vw; background-position: center; padding-left: auto; padding-right: auto;}
 
 .loading-content { display: block; margin: auto;}
+
+#milo {display: block; text-align: center; margin: auto;}
 
 .loader p { color: white; display: block; margin: auto; text-align: center; font-size: 20px; }
 
