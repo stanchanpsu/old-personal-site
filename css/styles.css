@@ -1,7 +1,14 @@
-@media screen and (min-width: 0px) and (max-width: 925px)
+@media screen and (min-width: 0px) and (max-width:850px)
 {	
 	.navigate { display: none;}
 	.jumbotron p { display: none;}
+	.jumbotron #get-to { display: none; }
+	#get-to a { display: none; }
+	.jumbotron h1 { text-align: center; }
+}
+
+@media screen and (min-height: 0px) and (max-height: 600px)
+{	
 	.jumbotron #get-to { display: none; }
 	#get-to a { display: none; }
 	.jumbotron h1 { text-align: center; }
@@ -11,9 +18,9 @@
 
 @font-face { font-family: code; src: url(/fonts/code_font.otf); }
 
-.loader {display: flex; align-items: center; height: 100vh; background-color: #66ceff; background-repeat: no-repeat; z-index: 200; position: fixed; width: 100vw; background-position: center; padding-left: auto; padding-right: auto;}
+.loader {display: table; align-items: center; height: 100vh; background-color: #66ceff; background-repeat: no-repeat; z-index: 200; position: fixed; width: 100vw; 				background-position: center; padding-left: auto; padding-right: auto;}
 
-.loading-content { display: block; margin: auto;}
+.loading-content { display: table-cell; vertical-align: middle; margin: auto;}
 
 #milo {display: block; text-align: center; margin: auto;}
 
@@ -47,15 +54,15 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 /*============= JUMBOTRON ===========*/
 
 .jumbotron { margin: 0px; background-image: url('/img/background.jpg'); background-size: cover;	background-repeat: no-repeat; background-position: 0% 50%;
-			 height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.3px;}
+	height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.3px;}	
 
-.jumbotron img { width: 200px; height: 200px; border-radius: 50%; border: 5px white solid; }	
+	.vertical-center {	min-height: 600px; min-height: 100vh; display: table; align-items: center;}
 
-	.vertical-center {	position: relative;	top: -48px;	min-height: 600px; min-height: 100vh; display: flex; align-items: center; }
-
-	#jumbotron-content{ display: inline; padding-top: 60px;}
+	#jumbotron-content {display: table-cell; vertical-align: middle; }
 
 	.jumbotron #jumbotron-text, #jumbotron-image { display:inline-block; vertical-align: middle; }
+
+	.jumbotron img { width: 200px; height: 200px; border-radius: 50%; border: 5px white solid; }
 
 	.jumbotron h1 { color: white; font-weight: 500; font-size: 70px; text-align: left; padding: 0; font-family: code; }
 								

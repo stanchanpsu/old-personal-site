@@ -70,7 +70,7 @@ function activeLink(){
 			$('a[href="#home"]').addClass('active');
 		}
 		else if(top < projects - (projects-about)/2 + 160){
-			$('a[href="#about"]').addClass('active');
+			$('#nav-about').addClass('active');
 		}
 		else if(top < blog - (blog-projects)/2 + 160){
 			$('a[href="#projects"]').addClass('active');
