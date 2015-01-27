@@ -155,7 +155,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.icon-contain{ display: inline-block; padding: 30px; }
 
-	.icon { height: 80px; width: 80px; border-radius: 15%;}	
+	.contact-icon { height: 80px; width: 80px; border-radius: 15%;}	
 	
 	#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
 
