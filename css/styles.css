@@ -24,7 +24,7 @@
 
 #milo {display: block; text-align: center; margin: auto;}
 
-.loader p { color: white; display: block; margin: auto; text-align: center; font-size: 20px; }
+.loader p { font-family: Ubuntu; color: white; display: block; margin: auto; text-align: center; font-size: 20px; }
 
 a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
