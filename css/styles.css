@@ -16,7 +16,18 @@
 
 /* div, ul, h1, span { border: red 1px solid; } */
 
-@font-face { font-family: code; src: url(/fonts/code_font.otf); }
+@font-face {
+    font-family: 'code';
+    src: url('/fonts/code-webfont.eot');
+    src: url('/fonts/code-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/code-webfont.woff2') format('woff2'),
+         url('/fonts/code-webfont.woff') format('woff'),
+         url('/fonts/code-webfont.ttf') format('truetype'),
+         url('/fonts/code-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .loader {display: table; align-items: center; height: 100vh; background-color: #66ceff; background-repeat: no-repeat; z-index: 200; position: fixed; width: 100vw; 				background-position: center; padding-left: auto; padding-right: auto;}
 
@@ -157,9 +168,9 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.contact-icon { height: 80px; width: 80px; border-radius: 15%;}	
 	
-	#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
+#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
 
-#email p { margin: 0;}
+	#email p { margin: 0;}
 	
 	.email > p > a { margin: 0; padding: 5px; color: white;}
 
