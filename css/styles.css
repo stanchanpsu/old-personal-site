@@ -5,6 +5,7 @@
 	.jumbotron #get-to { display: none; }
 	#get-to a { display: none; }
 	.jumbotron h1 { text-align: center; }
+
 }
 
 @media screen and (min-height: 0px) and (max-height: 600px)
@@ -67,9 +68,9 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 .jumbotron { margin: 0px; background-image: url('/img/background.jpg'); background-size: cover;	background-repeat: no-repeat; background-position: 0% 50%;
 	height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.3px;}	
 
-	.vertical-center {	min-height: 600px; min-height: 100vh; display: table; align-items: center;}
+	.vertical-center {	min-height: 600px; min-height: 100vh; display: table; align-items: center; } /*causing issues on mobile because table*/
 
-	#jumbotron-content {display: table-cell; vertical-align: middle; }
+	#jumbotron-content {display: table-cell; vertical-align: middle; } /*same as above*/
 
 	.jumbotron #jumbotron-text, #jumbotron-image { display:inline-block; vertical-align: middle; }
 
