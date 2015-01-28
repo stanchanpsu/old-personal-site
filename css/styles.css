@@ -68,7 +68,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 .jumbotron { margin: 0px; background-image: url('/img/background.jpg'); background-size: cover;	background-repeat: no-repeat; background-position: 0% 50%;
 	height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.3px;}	
 
-	.vertical-center {	min-height: 600px; min-height: 100vh; display: table; align-items: center; } /*causing issues on mobile because table*/
+	.vertical-center {	min-height: 600px; min-height: 100vh; display: table; align-items: center; padding: 0px;} /*causing issues on mobile because table*/
 
 	#jumbotron-content {display: table-cell; vertical-align: middle; } /*same as above*/
 
@@ -142,13 +142,15 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 #projects { background-color: #596279; }
 
-	#projects .col-md-5 {margin-top: 50px; }	
+	.project-description {margin-top: 50px; }	
 
 	#projects .col-md-5 > p { font-size: 25px; }
 
 	#projects .text-muted {color: rgba(255,255,255,0.7); letter-spacing: 2px;}
 
 	#projects .note { font-size: 20px; color: rgba(255,255,255,0.7); }
+
+	.feature { padding: 30px; padding-left: 0px; padding-right: 0px; }
 
 
 
