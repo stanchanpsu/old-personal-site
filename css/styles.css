@@ -1,10 +1,17 @@
-@media screen and (min-width: 0px) and (max-width:850px)
+@media screen and (min-width: 0px) and (max-width:800px)
 {	
 	.navigate { display: none;}
 	.jumbotron p { display: none;}
 	.jumbotron #get-to { display: none; }
 	#get-to a { display: none; }
 	.jumbotron h1 { text-align: center; }
+
+}
+
+@media screen and (min-width: 800px) and (max-width:970px)
+{	
+	.jumbotron #get-to { display: none; }
+	#get-to a { display: none; }
 
 }
 
@@ -65,8 +72,9 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============= JUMBOTRON ===========*/
 
-.jumbotron { margin: 0px; background-image: url('/img/background.jpg'); background-size: cover;	background-repeat: no-repeat; background-position: 0% 50%;
-	height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.3px;}	
+.jumbotron-background { position: fixed; width: 100vw; height: 100vh; background-image: url('/img/background.jpg'); z-index: -1000; background-position: 0% 40%;}
+
+.jumbotron { margin: 0px; background-color: rgba(255, 255, 255, 0.0); height: 100vh; min-height: 500px; text-align: center; letter-spacing: 1.3px;}	
 
 	.vertical-center {	min-height: 600px; min-height: 100vh; display: table; align-items: center; padding: 0px;} /*causing issues on mobile because table*/
 
@@ -161,9 +169,9 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 	.text {font-family: Ubuntu; font-size: 30px; color: white; letter-spacing: 2px;}
 /*============= CONTACT ===========*/
 
-#contact {background-color: rgba(0,0,0,0.7); padding: 10px;}
+#contact {background-color: rgba(0,0,0,0.0); padding: 10px;}
 
-	#icons {background-color: rgba(0,0,0,0.7);  text-align: center;}
+	#icons {background-color: rgba(0,0,0,0.0);  text-align: center;}
 
 	#icons a {font-size: 20px; font-family: code; color: white; }
 
@@ -171,7 +179,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.contact-icon { height: 80px; width: 80px; border-radius: 15%;}	
 	
-#email { background-color: rgba(0,0,0,0.6); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
+#email { background-color: rgba(0,0,0,0.2); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
 
 	#email p { margin: 0;}
 	
@@ -186,6 +194,6 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 /*============== FOOTER =============*/
 
-footer  { text-align: right; padding-right: 50px; padding-left: 50px; background-color: rgba(0,0,0,0.7); padding-bottom: 10px;}
+footer  { text-align: right; padding-right: 50px; padding-left: 50px; background-color: rgba(0,0,0,0.0); padding-bottom: 10px;}
 
 footer p { color: white; font-size: 18px; font-family: code; padding-top: 10px; vertical-align: middle; letter-spacing: 1.5px;}
