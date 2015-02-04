@@ -54,19 +54,21 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 .navigate {  background: -webkit-linear-gradient(white, rgba(255,255,255,0.5));
   background: -o-linear-gradient(white, rgba(255,255,255,0.5)); 
   background: -moz-linear-gradient(white, rgba(255,255,255,0.5));
-  background: linear-gradient(white, rgba(255,255,255,0.6));	align-items: center; letter-spacing: 1.5px; z-index: 100; position: fixed; width: 100vw;}
+  background: linear-gradient(white, rgba(255,255,255,0.6)); background: rgba(255,255,255,0); letter-spacing: 1.5px; z-index: 100; position: fixed; width: 100vw;}
 								
 	.center-pills { min-height: 60px; height: -5vw; text-align: center;	}
 
-	.nav-pills { position: relative; top: 3px; font-size: 24px; display: inline-block; /*prevent double click highlighting*/-webkit-user-select: none; /* Chrome/Safari */       -moz-user-select: none; /* Firefox */ -ms-user-select: none; /* IE10+ */}
+	.pills {list-style-type: none; font-size: 20px; -webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; padding: 0px; margin: 0px;}
 
-	.nav-pills li a:link	{ background-color: none; padding-left: 25px; padding-right: 25px; font-family: code; }
+	.pills li { display: inline; position: relative; top: 13px;}
+
+	.pills li a:link {border-radius: 5px; background-color: none; padding: 10px; padding-left: 20px; padding-right: 20px; font-family: code; }
 								
-	.nav-pills li a:hover { background-color: rgba(92,198,255,0.5);	}
+	.pills li a:hover { background-color: rgba(92,198,255,0.5);	}
 
-	.nav-pills li a:active { background-color: rgba(92,198,255,0); }
+	.pills li a:active { background-color: rgba(0,0,0,0); }
 
-	.nav-pills li a:visited { background-color: (0,0,0,0);}
+	.pills li a:visited { background-color: (0,0,0,0);}
 
 	.active { background-color: rgba(92,198,255,0.5); color: #23527c; }
 

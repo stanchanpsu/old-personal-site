@@ -1,5 +1,4 @@
 
-
 $(window).load(function() {
 	$('.loader').fadeOut(3000);
 });
@@ -48,6 +47,9 @@ function smoothScroll(){
 }
 
 function activeLink(){
+	
+	$('.navigate li a').css('color','white');
+	
 	window.onscroll = function (event) {
 		$('a[href*=#]').each(function () {
 			$(this).removeClass('active');
@@ -65,9 +67,20 @@ function activeLink(){
 
 		var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
+		console.log(top);
 
-		if(top < about - (about-home)/2){
-			$('a[href="#home"]').addClass('active');
+		if (top < 2){
+			$('.navigate li a').stop(true).animate({color: 'white', fontSize: '20px'}, 'fast');
+			$('.navigate').stop(true).animate({backgroundColor: 'rgba(0,0,0,0)'}, 'fast');
+			return;
+		}
+		else if(top > 2){
+			$('.navigate li a').animate({color: '#337ab7', fontSize: '24px'}, 'fast');
+			$('.navigate').animate({backgroundColor: 'rgba(255,255,255,0.8)'}, 'fast');
+		}
+		
+		if(top < about){
+			return;
 		}
 		else if(top < projects - (projects-about)/2 + 160){
 			$('#nav-about').addClass('active');
