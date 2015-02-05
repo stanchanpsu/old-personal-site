@@ -64,13 +64,13 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.pills li a:link {border-radius: 5px; background-color: none; padding: 10px; padding-left: 20px; padding-right: 20px; font-family: code; }
 								
-	.pills li a:hover { background-color: rgba(92,198,255,0.5);	}
+	.pills li a:hover { color: white !important; background-color: rgba(92,198,255,0.7);}
 
 	.pills li a:active { background-color: rgba(0,0,0,0); }
 
 	.pills li a:visited { background-color: (0,0,0,0);}
 
-	.active { background-color: rgba(92,198,255,0.5); color: #23527c; }
+	.active { color: white !important; background-color: rgba(92,198,255,0.8); }
 
 
 
@@ -185,7 +185,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 	
 #email { background-color: rgba(0,0,0,0.2); font-size: 30px; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
 
-	#email p { margin: 0;}
+	#email p { margin: 0; }
 	
 	.email > p > a { margin: 0; padding: 5px; color: white;}
 
