@@ -60,7 +60,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.pills {list-style-type: none; font-size: 20px; -webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; padding: 0px; margin: 0px;}
 
-	.pills li { display: inline; position: relative; top: 13px;}
+	.pills li { display: inline; position: relative; top: 13px; }
 
 	.pills li a:link {border-radius: 5px; background-color: none; padding: 10px; padding-left: 20px; padding-right: 20px; font-family: code; }
 								

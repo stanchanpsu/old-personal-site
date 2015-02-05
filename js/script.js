@@ -1,11 +1,10 @@
-
 $(window).load(function() {
 	$('.loader').fadeOut(3000);
 });
 
 $(document).ready(function(){
 	smoothScroll();
-	activeLink();
+	navbar();
 	email();
 });
 
@@ -20,15 +19,6 @@ function email(){
 			});
 		});
 	});
-	$('#email-text').on('click', function(e){
-       $('#email').slideToggle("fast", function(){
-			$('body').stop().animate({
-			'scrollTop': $('#email').offset().top
-			}, 350, 'swing', function () {
-			window.location.hash = "#contact";
-			});
-	   });
-   });
 }
 
 function smoothScroll(){
@@ -46,9 +36,9 @@ function smoothScroll(){
 	});
 }
 
-function activeLink(){
+function navbar(){
 	
-	$('.navigate li a').css('color','white');
+	$('.navigate li a').css('color', 'white');
 	
 	window.onscroll = function (event) {
 		$('a[href*=#]').each(function () {
@@ -56,8 +46,6 @@ function activeLink(){
 	  })
 
 		var top = $(window).scrollTop();
-		
-		var height = $(window).height();
 
 		var home = $('#home').offset().top;
 		var about = $('#about').offset().top;
@@ -65,9 +53,7 @@ function activeLink(){
 		var blog = $('#blog').offset().top;
 		var contact = $('#contact').offset().top;
 
-		var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
-
-		console.log(top);
+		var bottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
 		if (top < 2){
 			$('.navigate li a').stop(true).animate({color: 'white', fontSize: '20px'}, 'fast');
@@ -76,7 +62,7 @@ function activeLink(){
 		}
 		else if(top > 2){
 			$('.navigate li a').animate({color: '#337ab7', fontSize: '24px'}, 'fast');
-			$('.navigate').animate({backgroundColor: 'rgba(255,255,255,0.9)' /*'rgba(169,213,239,0.9)'*/}, 'fast');
+			$('.navigate').animate({backgroundColor: 'rgba(255,255,255,0.9)'}, 'fast');
 		}
 		
 		if(top < about){
@@ -88,7 +74,7 @@ function activeLink(){
 		else if(top < blog - (blog-projects)/2 + 160){
 			$('a[href="#projects"]').addClass('active');
 		}
-		else if(top < contact - (contact-blog)/2 + 160 && scrollBottom >= 2){
+		else if(top < contact - (contact-blog)/2 + 160 && bottom >= 2){
 			$('a[href="#blog"]').addClass('active');
 		}
 		else{
