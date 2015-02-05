@@ -76,7 +76,7 @@ function activeLink(){
 		}
 		else if(top > 2){
 			$('.navigate li a').animate({color: '#337ab7', fontSize: '24px'}, 'fast');
-			$('.navigate').animate({backgroundColor: 'rgba(255,255,255,0.8)'}, 'fast');
+			$('.navigate').animate({backgroundColor: 'rgba(169,213,239,0.8)'}, 'fast');
 		}
 		
 		if(top < about){
