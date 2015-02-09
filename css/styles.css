@@ -164,7 +164,7 @@ a:link, a:hover, a:visited, a:active { text-decoration: none; }
 
 	.feature { padding: 30px; padding-left: 0px; padding-right: 0px; }
 
-	.project-pic {height: 300px;}
+	.project-pic {height: 300px; width: auto; }
 
 
 
