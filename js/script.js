@@ -1,6 +1,6 @@
-$(window).load(function() {
-	$('.loader').fadeOut(3000);
-});
+// $(window).load(function() {
+// 	$('.loader').fadeOut(3000);
+// });
 
 $(document).ready(function(){
 	smoothScroll();
