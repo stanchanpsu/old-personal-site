@@ -220,8 +220,8 @@ h2 {font-family: Ubuntu !important; }
 #intro > h1 { font-size: 50px;}
 .white { background-color: white; }
 .white > h2 {color: black;}
-.white > p {color: black; font-size: 20px;}
-.white > ul> li {color: black;}
+.white > .col-md-10 > p {color: black; font-size: 20px;}
+.white > .col-md-10 > ul > li {color: black;}
 
 
 #ted { height: 80%; font-size: 20px;}
