@@ -222,6 +222,7 @@ h2 {font-family: Ubuntu !important; }
 .white > h2 {color: black;}
 .white > .col-md-10 > p {color: black; font-size: 20px;}
 .white > .col-md-10 > ul > li {color: black;}
+.white > p {color: black;}
 
 
 #ted { height: 80%; font-size: 20px;}
@@ -272,3 +273,5 @@ blockquote cite {
 blockquote cite:before {
     content: "\2014 \2009";
 }
+
+hr {border: 2px solid black; background:black;}
